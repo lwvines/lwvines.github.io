@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #F2EEE8;
+  font-family: Arial, sans-serif;
+  color: #3B3B3B;
+}
+
+form {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #D6D6D6;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #FFC947;
+  color: #3B3B3B;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #FFD58F;
+}
+
+
